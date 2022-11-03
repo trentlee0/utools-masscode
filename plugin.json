@@ -1,0 +1,27 @@
+{
+  "pluginName": "massCode",
+  "author": "Trent0",
+  "homepage": "https://github.com/trentlee0",
+  "description": "快速搜索、创建 massCode 代码片段",
+  "version": "1.0.0",
+  "logo": "icon/logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "masscode-search",
+      "explain": "搜索 massCode 中的代码片段",
+      "cmds": [
+        "搜索代码片段",
+        "massCode Search"
+      ]
+    },
+    {
+      "code": "masscode-create",
+      "explain": "在 massCode 中新建代码片段",
+      "cmds": [
+        "创建代码片段",
+        "massCode Create Snippet"
+      ]
+    }
+  ]
+}
